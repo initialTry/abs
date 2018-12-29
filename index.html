@@ -18,11 +18,24 @@
 <link href=css/seren.css rel="stylesheet">
 
 <style media="screen">
+
   @media (max-width:768px){
      #mobilespace{
        margin-top: 10%;
      }
+
+     #particles-js-footer{
+       max-width: 100%;
+     }
    }
+
+   @media (min-width:768px) {
+     #particles-js-footer{
+       max-width:76%;
+       max-height:20%;
+     }
+   }
+
 </style>
 
 <div id=preloader>
@@ -136,8 +149,8 @@
 -->
 <br>
 <footer>
-    <div id="particles-js-footer" style=min-height:3%></div>
     <div class=container>
+      <div id="particles-js-footer"></div>
         <div class=row>
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <a href=#><img alt=img src=img/logos/logo-footer.png style="min-width:32%; max-height:45px;"></a>
