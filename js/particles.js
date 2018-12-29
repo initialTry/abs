@@ -580,4 +580,3 @@ if($("#particles-js-404").length !== 0) {
     "retina_detect": true
   });
 }
-
