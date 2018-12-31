@@ -17,13 +17,44 @@
 <link href=css/styles.css rel=stylesheet>
 <link href=css/fonts.css rel=stylesheet>
 <link href=css/seren.css rel=stylesheet>
-    
+
 <div id=preloader>
     <div class=spinner>
         <div class=cube1></div>
         <div class=cube2></div>
     </div>
 </div>
+
+<style media="screen">
+
+  #navigator-button{
+  width: 35%;
+height: 29px;
+box-sizing: border-box;
+background-color: black;
+border-radius: 30px;
+padding: 0%;
+margin-top: 4%;
+margin-right: 2.5%;
+  }
+
+
+  @media (max-width:990px){
+      #navigator-button{
+       width: auto;
+       text-align: center;
+          margin-right: 0;
+     }
+   }
+
+   @media (min-width:990px){
+       #navigator-button-width{
+        width: 53%;
+      }
+    }
+
+</style>
+
 <header>
     <nav class="navbar navbar-custom navbar-default" data-offset-top=20 data-spy=affix>
         <div class=container>
@@ -33,13 +64,9 @@
                     <a href=index.html class=navbar-logo><img alt=logo src=../img/logos/logo.png></a>
                 </div>
                 <div class="collapse navbar-collapse" id=bs-example-navbar-collapse-1>
-                    <ul class="nav navbar-links-custom navbar-nav navbar-right">
-                        <li class=dropdown><a href=# class=dropdown-toggle aria-expanded=false aria-haspopup=true data-toggle=dropdown>Home</a>
-                            <ul class="dropdown-menu dropdown-menu-left">
-                                <li><a href=index.html>Home Slider</a>
-                                    <li><a href=home-parallax.html>Home Parallax</a>
-                                        <li><a href=home-video.html>Home Video</a>
-                                            <li><a href=home-image.html>Home Image</a></ul>
+                    <ul class="nav navbar-links-custom navbar-nav navbar-right" id=navigator-button-width>
+                      <li id="navigator-button"><a href=../index.html class=dropdown-toggle aria-expanded=false aria-haspopup=true style=" padding-top:5px;"><span style="color:#fff;">&nbspAbstruse Group Navigator</span></a></li>
+                        <li><a href=index.html>Home</a>
                             <li class=dropdown><a href=# class=dropdown-toggle aria-expanded=false aria-haspopup=true data-toggle=dropdown>Projects</a>
                                 <ul class="dropdown-menu dropdown-menu-left">
                                     <li><a href=projects-masonry.html>Projects Masonry</a>
@@ -47,83 +74,38 @@
                                             <li><a href=projects-grid.html>Projects Grid</a>
                                                 <li><a href=projects-grid-2.html>Projects Grid 2</a>
                                                     <li><a href=projects-detail.html>Project Detail</a></ul>
-                                <li><a href=about.html>About</a>
+
                                     <li class=dropdown><a href=# class=dropdown-toggle aria-expanded=false aria-haspopup=true data-toggle=dropdown>Services</a>
                                         <ul class="dropdown-menu dropdown-menu-left">
                                             <li><a href=services.html>Services</a>
                                                 <li><a href=services-2.html>Services 2</a>
                                                     <li><a href=services-detail.html>Services Detail</a></ul>
-                                        <li class=dropdown><a href=# class=dropdown-toggle aria-expanded=false aria-haspopup=true data-toggle=dropdown>Blog</a>
-                                            <ul class="dropdown-menu dropdown-menu-left">
-                                                <li><a href=blog-grid.html>Blog Grid</a>
-                                                    <li><a href=blog-list.html>Blog List</a>
-                                                        <li><a href=blog-post.html>Blog Post</a></ul>
-                                            <li class=dropdown><a href=# class=dropdown-toggle aria-expanded=false aria-haspopup=true data-toggle=dropdown>Shop</a>
-                                                <ul class="dropdown-menu dropdown-menu-left">
-                                                    <li><a href=shop.html>Shop</a>
-                                                        <li><a href=shop-detail.html>Shop Detail</a></ul>
-                                                <li class=dropdown><a href=# class=dropdown-toggle aria-expanded=false aria-haspopup=true data-toggle=dropdown>Pages</a>
-                                                    <ul class="dropdown-menu dropdown-menu-left">
-                                                        <li><a href=404.html>404</a>
-                                                            <li><a href=team.html>Team</a></ul>
+
                                                     <li><a href=contact.html>Contact</a>
-                                                        <li class=search-holder><span class=search-button onclick=openNav()><i class="fa fa-search"aria-hidden=true></i></span></ul>
-                    <div class=search-overlay id=search_nav><a href=javascript:void(0) class=closebtn onclick=closeNav()>×</a>
-                        <div class=search-overlay-content>
-                            <form>
-                                <input placeholder="Search ...">
-                            </form>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </nav>
 </header>
+    
 <div class=page-title>
     <div id=particles-js-pagetitle></div>
     <div class=container>
         <h1>About Us</h1>
-        <h6 style="font-size: 16px;">Ambika Transporters</h6></div>
+        <h6  style="font-size: 16px;">Abstruse Technologies</h6></div>
 </div>
 
-    
 <div class=section-block>
     <div class=container>
         <div class=row>
             <div class="col-xs-12 col-md-5 col-sm-5">
                 <div class=section-heading>
-                    <h2 class="animated fadeInLeft wow">Ambika Transport Services</h2>
+                    <h2 class="animated fadeInLeft wow">Abstruse Technologies</h2>
                 </div>
                 <div class=text-content>
-                    <p>Ambika Transporters was founded by Late Shri K.R. Aggarwal, in 1986 to provide people with a friendly, simple, and streamlined approach to taking care of all your shipping needs. We offer a full suite of transportation and logistics services throughout North India.
+                    <p>Abstruse Technologies is one of the reckoned Software Development Company in Dehradun, estd. in 2011 by Aman Aggarwal &amp; is presently headed by Rishabh Aggarwal.<br>Rapidly changing business state of affairs and latest technologies being introduced day by day, always raises the requirement for change in development which suits the client requirement and also alter the existing software’s to match the latest technology by not changing the methodologies defined for good software. Our teams have 8 years of experience in the development of Software Applications &amp; Systems.
                     <br><br>
-                    The combined experience of the Ambika Transporters management team, along with our open and honest approach to communication and customer relations, has shaped Ambika Transporters into who we are today.<br>At Ambika Transport we’re driven to deliver your freight safely and on time. We pride ourselves on service first, that means being people-oriented. When you call our office we connect you to our staff—not a phone recording—so you get fast, friendly, and efficient service every time. Ambika Transport is committed to treating all members of our industry – drivers, in particular – with the recognition and respect they deserve.
-
-                    </p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
-                <div class=outline-bordered-right><img alt=img src=../img/content/about1.jpg></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-    
-<div class=section-block>
-    <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-md-5 col-sm-5">
-                <div class=section-heading>
-                    <h2 class="animated fadeInLeft wow">Ambika Tour &amp; Travel Services</h2>
-                </div>
-                <div class=text-content>
-                    <p>Ambika Transporters-Tour & Travel , is a company with 27 years of experience in arranging top quality India tours, Wildlife safaris and Beach holidays in the Indian sub-continent. Our Company presently is headed by R.K Aggarwal who have almost 35+ years of experience of arranging tours in the Indian subcontinent. Each one of our 30 + operations staff is dedicated to providing the highest quality Indian holidays, from designing the itineraries in consultation with you, right up to giving you expert advice on things like health and safety.
-                    <br><br>
-                    Since 1990 we have arranged and handled several thousand India tours for our clients, many of whom have travelled more than once with us. We pride ourselves in saying that "we are small enough to care, and large enough to deliver". Our team of professionals will do everything possible to ensure that your holiday in the Indian sub-continent works like clockwork, despite the challenges of travelling in a continent, not known for its efficient infrastructure.
-                    <br><br>Get in touch with us, and allow us to create your Indian experience for you.
-
-
+                    We have command over the Platforms of Visual Basic, .Net, PHP, JAVA, Python, Full Stack Web Development, SQL Server, Crystal Report, Photoshop, Coral Draw, Flash, Microsoft Office (Access, Excel, and PowerPoint). We also excel in mobile technology and cater to your need to develop classy iOS &amp; Android Applications.
                     </p></div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
@@ -186,22 +168,14 @@
         </div>
     </div>
 </div>
-
+    
 <div class=section-block-parallax style=background-image:url(../img/bg/bg4.jpg)>
     <div class=container>
         <div class="owl-carousel owl-theme" id=testmonials>
-            <div class="mt-40 testmonial-block">
-                <h4>Tim Cook</h4>
-                <h6>Director</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            <div class="mt-40 testmonial-block">
-                <h4>John Doe</h4>
-                <h6>Designer</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            <div class="mt-40 testmonial-block">
-                <h4>Clara White</h4>
-                <h6>Marketing</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+             <div class="mt-40 testmonial-block">
+                <h4>Rishabh Aggarwal</h4>
+                <h6>HOD Abstruse Technologies</h6>
+                <p>.</div>
         </div>
     </div>
 </div>
@@ -223,6 +197,7 @@
         </div>
     </div>
 </div>
+
 <footer>
     <div id=particles-js-footer style=height:150px></div>
     <div class=container>
@@ -239,7 +214,7 @@
                     <h2>Contact Us</h2></div>
                 <ul>
                     <li>Call Us
-                        <li>+91 
+                        <li>+91 9760-310-801
                             <li>
                                 <li>Mail Us
                                     <li>agcddnworld@gmail.com</ul>
@@ -264,8 +239,7 @@
             </div>
         </div>
     </div>
-</footer>
-    <a href=# class=scroll-to-top><i class="fa fa-angle-up"aria-hidden=true></i></a>
+</footer><a href=# class=scroll-to-top><i class="fa fa-angle-up"aria-hidden=true></i></a>
 <script src=../js/jquery.min.js></script>
 <script src=../js/bootstrap.min.js></script>
 <script src=../js/owl.carousel.js></script>
