@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Abstruse Group Of Companies</title>
+<title>Contact</title>
 <meta charset=UTF-8>
 <link href=img/logos/logo-shortcut.png rel="shortcut icon">
 <meta content="width=device-width,initial-scale=1,maximum-scale=1" name=viewport>
@@ -14,17 +14,8 @@
 <link href=css/particles.css rel=stylesheet>
 <link href=css/default.css rel=stylesheet>
 <link href=css/styles.css rel=stylesheet>
-<link href=css/fonts.css rel=stylesheet>
+<link href="css/fonts.css" rel=stylesheet>
 <link href=css/seren.css rel="stylesheet">
-
-<style media="screen">
-  @media (max-width:768px){
-     #mobilespace{
-       margin-top: 10%;
-     }  
-    
-   }
-</style>
 
 <div id=preloader>
     <div class=spinner>
@@ -56,35 +47,89 @@
     </nav>
 </header>
 <div class=page-title>
-<div id=particles-js-404 style="max-height:60%; max-width:80%;"> </div>
+    <div id=particles-js-pagetitle></div>
+    <div class=container>
+        <h1>Contact</h1>
+        <h6>Dream House</h6></div>
+</div>
+<div class=section-block>
+    <div class=container>
+        <div class=row>
+            <div class=contact-box>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class=contact-box-info>
+                        <div class="clearfix contact-box-icon">
+                            <div class=contact-icon><i class="fa fa fa-phone"></i></div>
+                            <div class=contact-info>
+                                <h5>Phone</h5>
+                                <p>(+123) 123456789
+                                    <p>(+321) 987654321</div>
+                        </div>
+                        <div class="clearfix contact-box-icon">
+                            <div class=contact-icon><i class="fa fa-map-marker"></i></div>
+                            <div class=contact-info>
+                                <h5>Our Address</h5>
+                                <p>West road, London, England
+                                    <p>Sheram 113</div>
+                        </div>
+                        <div class="clearfix contact-box-icon">
+                            <div class=contact-icon><i class="fa fa-envelope-o"></i></div>
+                            <div class=contact-info>
+                                <h5>Email</h5>
+                                <p>example@mail.com
+                                    <p>example@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-8 col-sm-8">
+                    <div class="row contact-box-message">
+                        <form autocomplete=off class=contact-form method=post>
+                            <div class=col-xs-12>
+                                <input placeholder="Your Name" name=name>
+                            </div>
+                            <div class=col-xs-6>
+                                <input placeholder="E-mail adress" name=email type=email>
+                            </div>
+                            <div class=col-xs-6>
+                                <input placeholder=Subject name=subject>
+                            </div>
+                            <div class=col-xs-12>
+                                <textarea name=message placeholder="Your Message"></textarea>
+                            </div>
+                            <div class=col-xs-12>
+                                <button class="center-holder button-md full-width mt-20 primary-button rounded-border" type=submit>Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id=map>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk25E4mNfVIEt3tNl3K1HwNZVruVoFBlA&amp;callback=initMap" async defer></script>
+</div>
+<div class="container section-block">
+    <div>
+        <div class="col-xs-12 col-md-3 col-sm-3">
+            <div class=section-heading>
+                <h2 class="animated fadeInLeft wow">Our Clients</h2>
+                <h3>Great Clients</h3></div>
+        </div>
+        <div class="col-xs-12 col-md-9 col-sm-9">
+            <div class="owl-carousel owl-theme" id=our-clients>
+                <div class=client-item><img alt=client src=img/partners/partner1.jpg></div>
+                <div class=client-item><img alt=client src=img/partners/partner2.jpg></div>
+                <div class=client-item><img alt=client src=img/partners/partner3.jpg></div>
+                <div class=client-item><img alt=client src=img/partners/partner4.jpg></div>
+                <div class=client-item><img alt=client src=img/partners/partner5.jpg></div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<div class="container">
-  <div class="row">
-  <div class="col-xs col-sm-4">
-    <a href=builders/index.html>
-      <h1>Builders</h1>
-      <h6 style="letter-spacing: 1px !important">Abstruse Infrastructures</h6>
-    </a>
-  </div>
-  <div class="col-xs col-sm-4" id = "mobilespace">
-    <a href=ites/index.html>
-     <h1>ITES</h1>
-     <h6 style="letter-spacing: 1px !important">Abstruse<br> I.T. & B.P.O. Services</h6>
-   </a>
-   </div>
-  <div class="col-xs col-sm-4" id = "mobilespace">
-    <a href=transport/index.html>
-     <h1>Transporters</h1>
-     <h6 style="letter-spacing: 1px !important">Goods Transport & Cab Services</h6>
-   </a>
-   </div>
-  </div>
-</div>
-</div>
-    
-<br>
-    
 <footer>
+    <div id=particles-js-footer style=height:150px></div>
     <div class=container>
         <div class=row>
             <div class="col-xs-12 col-sm-4 col-md-4">
@@ -122,8 +167,7 @@
             </div>
         </div>
     </div>
-</footer>
-<a href=# class=scroll-to-top><i class="fa fa-angle-up"aria-hidden=true></i></a>
+</footer><a href=# class=scroll-to-top><i class="fa fa-angle-up"aria-hidden=true></i></a>
 <script src=js/jquery.min.js></script>
 <script src=js/bootstrap.min.js></script>
 <script src=js/owl.carousel.js></script>
