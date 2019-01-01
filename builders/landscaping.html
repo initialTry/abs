@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>About</title>
-
+<title>Hotels</title>
 <meta charset=UTF-8>
 <link href=../img/logos/logo-shortcut.png rel="shortcut icon">
 <meta content="width=device-width,initial-scale=1,maximum-scale=1" name=viewport>
@@ -15,50 +14,13 @@
 <link href=css/particles.css rel=stylesheet>
 <link href=css/default.css rel=stylesheet>
 <link href=css/styles.css rel=stylesheet>
-<link href=css/fonts.css rel=stylesheet>
-<link href=css/seren.css rel=stylesheet>
-
+<link href="css/fonts.css" rel=stylesheet>
 <div id=preloader>
     <div class=spinner>
         <div class=cube1></div>
         <div class=cube2></div>
     </div>
 </div>
-
-<style media="screen">
-
-  #navigator-button{
-  width: 35%;
-height: 29px;
-box-sizing: border-box;
-background-color: black;
-border-radius: 30px;
-padding: 0%;
-margin-top: 4%;
-margin-right: 2.5%;
-  }
-
-
-  @media (max-width:990px){
-      #navigator-button{
-       width: auto;
-       text-align: center;
-          margin-right: 0;
-     }
-    
-      #mainHeading{
-        letter-spacing: 11px;
-      }
-   }
-
-   @media (min-width:990px){
-       #navigator-button-width{
-        width: 53%;
-      }
-    }
-
-</style>
-
 <header>
     <nav class="navbar navbar-custom navbar-default" data-offset-top=20 data-spy=affix>
         <div class=container>
@@ -72,6 +34,7 @@ margin-right: 2.5%;
                       <li id="navigator-button"><a href=../index.html class=dropdown-toggle aria-expanded=false aria-haspopup=true style=" padding-top:5px;"><span style="color:#fff;">&nbspAbstruse Group Navigator</span></a></li>
                         <li><a href=about.html>About</a></li>
                         <li><a href=capabilities.html >Capabilities</a></li>
+
                                     <li class=dropdown><a href=# class=dropdown-toggle aria-expanded=false aria-haspopup=true data-toggle=dropdown>Services</a>
                                         <ul class="dropdown-menu dropdown-menu-left">
                                             <li><a href=hotel.html>Hotel Designs</a>
@@ -94,125 +57,77 @@ margin-right: 2.5%;
 <div class=page-title>
     <div id=particles-js-pagetitle></div>
     <div class=container>
-        <h1>About Us</h1>
-        <h6 id=mainHeading style="font-size: 16px;">Abstruse Infrastructures</h6></div>
+        <h1>Projects Grid</h1>
+        <h6>Dream House</h6></div>
 </div>
-
 <div class=section-block>
     <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-md-5 col-sm-5">
-                <div class=section-heading>
-                    <h2 class="animated fadeInLeft wow">Hola</h2>
-                    <h3>We are Reinventing Businesses By Design</h3></div>
-                <div class=text-content>
-                    <p>Driven by nearly a decade of experience, Abstruse Infrastructures translates ideas into experiences that work in today’s world, and set the stage for tomorrow.</p></div>
+        <div class=parent-isotope>
+            <div class=isotop-buttons-block id=filters>
+                <button class="isotop-button is-checked" data-filter=*>Show all</button>
+                <button class=isotop-button data-filter=.house>Houses</button>
+                <button class=isotop-button data-filter=.design>Design</button>
+                <button class=isotop-button data-filter=.interior>Interior</button>
+                <button class=isotop-button data-filter=.exterior>Exterior</button>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
-                <div class=outline-bordered-right><img alt=img src=../img/content/about1.jpg></div>
-            </div>
-        </div>
-    </div>
-</div>
-    
-<div class=section-block>
-    <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-md-5 col-sm-5">
-                <div class=section-heading>
-                    <h2 class="animated fadeInLeft wow">Our Approach</h2>
-                    <h3>Creative Problem Solving</h3></div>
-                <div class=text-content>
-                    <p>Creative Problem Solving is a method used by our designers to solve complex problems, and find desirable solutions for clients. Our mindset is not problem-focused, it is solution focused and action oriented towards creating a preferred future.</p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
-                <div class=outline-bordered-right><img alt=img src=../img/content/about1.jpg></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class=section-block>
-    <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-md-5 col-sm-5">
-                <div class=section-heading>
-                    <h2 class="animated fadeInLeft wow">We Reinvent Your Business</h2>
-                    <h3>We are strategic partners</h3></div>
-                <div class=text-content>
-                    <p>We are strategic partners who turn the latest insights in business, technology and human motivation into an innovative experience that positions your brand for tomorrow.<br>
-                    Now we turn that experience into a brand from the physical to the digital realm, we reimagine new ways for your clients to connect with your brand in an emotional way.<br></div>
-                    <div class=section-heading>
-                    <h3>We bring your brand to life in The Social Conscious</h3></div> 
-                    <div class=text-content><p>We tell you how and why bold new experiences will change the way your customers live, work, shop and play.
-                    </p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
-                <div class=outline-bordered-right><img alt=img src=../img/content/about1.jpg></div>
-            </div>
-        </div>
-    </div>
-</div>
-    
-<div class="no-padding section-block">
-    <div class=container>
-        <div class=section-heading>
-            <h2 class="animated fadeInLeft wow">Proffesional Team</h2>
-            <h3>Meet Our Team</h3></div>
-    </div>
-    <div class=container-fluid>
-        <div class="row mt-30">
-            <div class="col-xs-12 col-md-3 col-sm-6 no-padding">
-                <div class="team-member team-member-image"><img alt=team-img src=../img/team/team9.jpg>
-                    <div class=team-member-overlay>
-                        <div class=team-member-content><a href=#><i class="fa fa-facebook-official"></i></a> <a href=#><i class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-instagram"></i></a></div>
-                        <div class=team-member-name>
-                            <h4>R.K. Aggarwal</h4>
-                            <h6>Chairman</h6></div>
+            <div class=row>
+                <div class=isotope-grid>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item design interior">
+                        <div class=project>
+                            <div class=project__card>
+                                <a href=# class=project__image><img alt=project src=../img/projects/long-1.jpg></a>
+                                <div class=project__detail>
+                                    <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item exterior house">
+                        <div class=project>
+                            <div class=project__card>
+                                <a href=# class=project__image><img alt=project src=../img/projects/long-2.jpg></a>
+                                <div class=project__detail>
+                                    <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item exterior design">
+                        <div class=project>
+                            <div class=project__card>
+                                <a href=# class=project__image><img alt=project src=../img/projects/long-3.jpg></a>
+                                <div class=project__detail>
+                                    <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item exterior">
+                        <div class=project>
+                            <div class=project__card>
+                                <a href=# class=project__image><img alt=project src=../img/projects/long-4.jpg></a>
+                                <div class=project__detail>
+                                    <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item exterior design">
+                        <div class=project>
+                            <div class=project__card>
+                                <a href=# class=project__image><img alt=project src=../img/projects/long-5.jpg></a>
+                                <div class=project__detail>
+                                    <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item house interior">
+                        <div class=project>
+                            <div class=project__card>
+                                <a href=# class=project__image><img alt=project src=../img/projects/long-6.jpg></a>
+                                <div class=project__detail>
+                                    <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-3 col-sm-6 no-padding">
-                <div class="team-member team-member-image"><img alt=team-img src=../img/team/team3.jpg>
-                    <div class=team-member-overlay>
-                        <div class=team-member-content><a href=#><i class="fa fa-facebook-official"></i></a> <a href=#><i class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-instagram"></i></a></div>
-                        <div class=team-member-name>
-                            <h4>Udyan Aggarwal</h4>
-                            <h6>Architect</h6></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-3 col-sm-6 no-padding">
-                <div class="team-member team-member-image"><img alt=team-img src=../img/team/team4.jpg>
-                    <div class=team-member-overlay>
-                        <div class=team-member-content><a href=#><i class="fa fa-facebook-official"></i></a> <a href=#><i class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-instagram"></i></a></div>
-                        <div class=team-member-name>
-                            <h4>Aman Aggarwal</h4>
-                            <h6>Interior Designer</h6></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-3 col-sm-6 no-padding">
-                <div class="team-member team-member-image"><img alt=team-img src=../img/team/team1.jpg>
-                    <div class=team-member-overlay>
-                        <div class=team-member-content><a href=#><i class="fa fa-facebook-official"></i></a> <a href=#><i class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-instagram"></i></a></div>
-                        <div class=team-member-name>
-                            <h4>Himanshu Aggarwal</h4>
-                            <h6>Landscaping Project Manager</h6></div>
-                    </div>
-                </div>
-            </div>        
-        </div>
-    </div>
-</div>
-    
-<div class=section-block-parallax style=background-image:url(../img/bg/bg4.jpg)>
-    <div class=container>
-        <div class="owl-carousel owl-theme" id=testmonials>
-             <div class="mt-40 testmonial-block">
-                <h4>Rishabh Aggarwal</h4>
-                <h6>HOD Abstruse Technologies</h6>
-                <p>.</div>
         </div>
     </div>
 </div>
@@ -234,7 +149,6 @@ margin-right: 2.5%;
         </div>
     </div>
 </div>
-
 <footer>
     <div id=particles-js-footer style=height:150px></div>
     <div class=container>
