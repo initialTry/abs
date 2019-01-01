@@ -44,6 +44,10 @@ margin-right: 2.5%;
        text-align: center;
           margin-right: 0;
      }
+      
+      #mainHeading{
+        letter-spacing: 9px;
+      }
    }
 
    @media (min-width:990px){
@@ -65,16 +69,17 @@ margin-right: 2.5%;
                 <div class="collapse navbar-collapse" id=bs-example-navbar-collapse-1>
                     <ul class="nav navbar-links-custom navbar-nav navbar-right" id=navigator-button-width>
                       <li id="navigator-button"><a href=../index.html class=dropdown-toggle aria-expanded=false aria-haspopup=true style=" padding-top:5px;"><span style="color:#fff;">&nbspAbstruse Group Navigator</span></a></li>
-                        <li><a href=about.html>About</a>
-                            <li><a href=capabilities.html >Capabilities</a>
+                        <li><a href=about.html>About</a></li>
+                        <li><a href=capabilities.html >Capabilities</a></li>
 
                                     <li class=dropdown><a href=# class=dropdown-toggle aria-expanded=false aria-haspopup=true data-toggle=dropdown>Services</a>
                                         <ul class="dropdown-menu dropdown-menu-left">
                                             <li><a href=services.html>Services</a>
                                                 <li><a href=services-2.html>Services 2</a>
-                                                    <li><a href=services-detail.html>Services Detail</a></ul>
+                                            <li><a href=services-detail.html>Services Detail</a></ul></li>
 
-                                                    <li><a href=contact.html>Contact</a>
+                        <li><a href=contact.html>Contact</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -82,14 +87,14 @@ margin-right: 2.5%;
 </header>
 
 <div class=video-area id=video-area>
-    <div class=player id=video-play data-property="{videoURL:'https://www.yotube.com/watch?v=BrmrX_hd9MI', containment:'#video-area', showControls:false, autoPlay:true, zoom:0, loop:true, mute:true, startAt:50, opacity:1, quality:'high',}"></div>
+    <div class=player id=video-play data-property="{videoURL:'https://www.youtube.com/watch?v=BrmrX_hd9MI', containment:'#video-area', showControls:false, autoPlay:true, zoom:0, loop:true, mute:true, startAt:50, opacity:1, quality:'high',}"></div>
     <div class=video-table>
         <div class=video-table-cell>
             <div class="container center-holder">
                 <div class=video-effect>
                     <div class=video-effect-box>
                         <div class=video-effect-content>
-                            <h3>Abstruse Infrastructures</h3>
+                            <h3 id=mainHeading>Abstruse Infrastructures</h3>
                             <h2>Modern Design and Architecture</h2>
                             <h2 style="font-size:18px;">Reinventing Businesses by Design</h2>
                         </div>
@@ -104,11 +109,24 @@ margin-right: 2.5%;
     <div class=container>
         <div class=row>
             <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5">
-                <div class=outline-bordered-right><img alt=img src=../img/content/home-pr-2.jpg>
+                <div class=outline-bordered-right><img alt=img src=img/index/hotel-link.JPG>
                 </div>
             </div>
             <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5">
+                <div class=outline-bordered-right><img alt=img src=></div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class=section-block>
+    <div class=container>
+        <div class=row>
+            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5">
                 <div class=outline-bordered-right><img alt=img src=../img/content/home-pr-2.jpg></div>
+            </div>
+            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5">
+                <div class=outline-bordered-right><img alt=img src=img/index/entertainment-link.JPG></div>
             </div>
         </div>
     </div>
@@ -127,92 +145,8 @@ margin-right: 2.5%;
     </div>
 </div>
     
-<div class=section-block>
-    <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5">
-                <div class=outline-bordered-right><img alt=img src=../img/content/home-pr-2.jpg></div>
-            </div>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5">
-                <div class=outline-bordered-right><img alt=img src=../img/content/home-pr-2.jpg></div>
-            </div>
-        </div>
-    </div>
-</div>
     
     
-    
-<div class=section-block>
-    <div style=height:1500px id=particles-js></div>
-    <div class=container>
-        <div class="row project-row" data-scrollax-parent=true>
-            <div class="col-xs-12 col-sm-7 col-md-7" data-scrollax="properties: { 'translateY': '-50px', 'opacity': 0.1 }">
-                <div class=outline-bordered-left><img alt=img src=../img/content/home-pr-2.jpg></div>
-            </div>
-            <div class="col-xs-12 col-md-4 col-md-offset-1 col-sm-5" data-scrollax="properties: { 'translateY': '100px', 'opacity': 0 }">
-                <div class=project-title>
-                    <h3>01</h3>
-                    <h2>Luxury Summer House</h2></div>
-                <div class="mt-30 text-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus.</div>
-            </div>
-        </div>
-        <div class="row project-row mt-100" data-scrollax-parent=true>
-            <div class="col-xs-12 col-sm-6 col-md-6" data-scrollax="properties: { 'translateY': '100px', 'opacity': 0.2 }">
-                <div class=project-title>
-                    <h3>02</h3>
-                    <h2>Flinders Street Station</h2></div>
-                <div class="mt-30 text-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus.</div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6" data-scrollax="properties: { 'translateY': '-50px', 'opacity': 0 }">
-                <div class=outline-bordered-right><img alt=img src=../img/content/home-pr-1.jpg></div>
-            </div>
-        </div>
-        <div class="row project-row mt-100" data-scrollax-parent=true>
-            <div class="col-xs-12 col-sm-7 col-md-7" data-scrollax="properties: { 'translateY': '-50px', 'opacity': 0 }">
-                <div class=outline-bordered-left><img alt=img src=../img/content/home-pr-4.jpg></div>
-            </div>
-            <div class="col-xs-12 col-md-4 col-md-offset-1 col-sm-5" data-scrollax="properties: { 'translateY': '100px', 'opacity': 0.2 }">
-                <div class=project-title>
-                    <h3>03</h3>
-                    <h2>Milwaukee Summer House</h2></div>
-                <div class="mt-30 text-content">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus. Donec auctor et urnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus.</div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container section-block">
-    <div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class=section-heading>
-                <h2 class="animated fadeInLeft wow">Latest News</h2>
-                <h3>Fresh updates for you, read with detail.</h3></div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 no-padding">
-            <div class="animated fadeInLeft wow blog-modern" data-wow-delay=0.1s>
-                <h3>Plant Trees While Searching The Web</h3><strong>Dec 04, 2017</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus.
-                    <div class=blog-moder-button><a href=#>Read More</a></div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 no-padding">
-            <div class="animated fadeInLeft wow blog-modern" data-wow-delay=0.2s>
-                <h3>Plant Trees While Searching The Web</h3><strong>Dec 04, 2017</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus.
-                    <div class=blog-moder-button><a href=#>Read More</a></div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 no-padding">
-            <div class="animated fadeInLeft wow blog-modern" data-wow-delay=0.3s>
-                <h3>Plant Trees While Searching The Web</h3><strong>Dec 04, 2017</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia magna vel molestie faucibus.
-                    <div class=blog-moder-button><a href=#>Read More</a></div>
-            </div>
-        </div>
-    </div>
-</div>
 <div class=section-block-parallax style=background-image:url(../img/bg/bg4.jpg)>
     <div class=container>
         <div class=row>
