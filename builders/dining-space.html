@@ -16,6 +16,7 @@
 <link href=css/styles.css rel=stylesheet>
 <link href=css/fonts.css rel=stylesheet>
 <link href=css/seren.css rel=stylesheet>
+<link href=css/ninja-slider.css rel=stylesheet>
 <div id=preloader>
     <div class=spinner>
         <div class=cube1></div>
@@ -54,8 +55,28 @@ margin-right: 2.5%;
         width: 53%;
       }
     }
+        
+        #image240{
+            height: 240px;
+        }
 
 </style>
+    
+<script type="text/javascript">
+    function lightbox(idx) {
+        var ninjaSldr = document.getElementById("ninja-slider");
+        ninjaSldr.parentNode.style.display = "block";
+        nslider.init(idx);
+        var fsBtn = document.getElementById("fsBtn");
+        fsBtn.click();
+    }
+
+    function fsIconClick(isFullscreen, ninjaSldr) {
+        if (isFullscreen) {
+            ninjaSldr.parentNode.style.display = "none";
+        }
+    }
+</script>
 <header>
     <nav class="navbar navbar-custom navbar-default" data-offset-top=20 data-spy=affix>
         <div class=container>
@@ -89,6 +110,37 @@ margin-right: 2.5%;
         </div>
     </nav>
 </header>
+    
+    
+     
+    <div style="display:none;">
+        <div id="ninja-slider">
+            <div class="slider-inner">
+                <ul>
+                    <li>
+                        <a class="ns-img" href="img/dining/1.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/dining/2.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/dining/3.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/dining/4.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/dining/5.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="img/dining/6.jpg"></a>
+                    </li>
+                </ul>
+                <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+            </div>
+        </div>
+    </div>
+    
 
 <div class=image-top style="background-image:url(img/main/main-dining.jpg); vertical-align: bottom; height: 70%;">
     <div class=image-top-content style="vertical-align: bottom">
@@ -109,65 +161,70 @@ margin-right: 2.5%;
             </div>
             <div class=row>
                 <div class=isotope-grid>
-                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item">
-                        <div class=project>
-                            <div class=project__card>
-                                <a href=# class=project__image><img alt=project src=../img/projects/long-1.jpg></a>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item" style="height: 250px">
+                        <div class=project onclick="lightbox(0)">
+                            <div class=project__card >
+                                <a href=# class=project__image><img id=image240 alt=project src=img/dining/1.jpg ></a>
                                 <div class=project__detail>
                                     <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item">
-                        <div class=project>
-                            <div class=project__card>
-                                <a href=# class=project__image><img alt=project src=../img/projects/long-2.jpg></a>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item" style="height: 260px">
+                        <div class=project onclick="lightbox(1)">
+                            <div class=project__card >
+                                <a href=# class=project__image><img alt=project src=img/dining/2.jpg ></a>
                                 <div class=project__detail>
                                     <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item">
-                        <div class=project>
-                            <div class=project__card>
-                                <a href=# class=project__image><img alt=project src=../img/projects/long-3.jpg></a>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item" style="height: 260px">
+                        <div class=project onclick="lightbox(2)">
+                            <div class=project__card >
+                                <a href=# class=project__image><img alt=project src=img/dining/3.jpg ></a>
                                 <div class=project__detail>
                                     <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item ">
-                        <div class=project>
-                            <div class=project__card>
-                                <a href=# class=project__image><img alt=project src=../img/projects/long-4.jpg></a>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item" style="height: 260px">
+                        <div class=project onclick="lightbox(3)">
+                            <div class=project__card >
+                                <a href=# class=project__image><img alt=project src=img/dining/4.jpg ></a>
                                 <div class=project__detail>
                                     <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item ">
-                        <div class=project>
-                            <div class=project__card>
-                                <a href=# class=project__image><img alt=project src=../img/projects/long-5.jpg></a>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item" style="height: 250px">
+                        <div class=project onclick="lightbox(4)">
+                            <div class=project__card >
+                                <a href=# class=project__image><img alt=project src=img/dining/5.jpg ></a>
                                 <div class=project__detail>
                                     <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item ">
-                        <div class=project>
-                            <div class=project__card>
-                                <a href=# class=project__image><img alt=project src=../img/projects/long-6.jpg></a>
+                    <div class="col-xs-12 col-md-4 col-sm-6 isotope-item" style="height: 250px">
+                        <div class=project onclick="lightbox(5)">
+                            <div class=project__card >
+                                <a href=# class=project__image><img alt=project src=img/dining/6.jpg ></a>
                                 <div class=project__detail>
                                     <h2 class=project__title><a href=#>Project Name</a></h2><small class=project__category><a href=#>Photography</a></small></div>
                             </div>
                         </div>
                     </div>
+                      
                 </div>
             </div>
         </div>
     </div>
 </div>
+    
+    
+   
+
 <footer>
     <div id=particles-js-footer style=height:150px></div>
     <div class=container>
@@ -228,3 +285,4 @@ margin-right: 2.5%;
 <script src=../js/modernizr.js></script>
 <script src=../js/map.js></script>
 <script src=../js/main.js></script>
+<script src=js/ninja-slider.js></script>
