@@ -202,7 +202,7 @@ function initMap() {
 
   var marker = new google.maps.Marker({
       position: myLatlng,
-      title:"Abstruse Group of Companies \\n 37/4 Kanwali Road Dehradun!"
+      title:"Abstruse Group of Companies \n 37/4 Kanwali Road Dehradun"
   });
 
   // To add the marker to the map, call setMap();
