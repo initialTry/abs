@@ -18,12 +18,26 @@
 <link href=css/seren.css rel="stylesheet">
 
 <style media="screen">
+    
+    
   @media (max-width:768px){
      #mobilespace{
        margin-top: 10%;
      }  
+    }
     
-   }
+    #droplist{
+        width:150%;
+    }
+    
+    @media (max-width:990px){
+        #droplist{
+            width:100%;
+        }
+    }
+    
+    
+    
 </style>
 
 <div id=preloader>
@@ -44,7 +58,7 @@
                     <ul class="nav navbar-links-custom navbar-nav navbar-right">
                      <li><a href=about.html>About Us</a></li>
                      <li class=dropdown><a href=# class=dropdown-toggle aria-expanded=false aria-haspopup=true data-toggle=dropdown>Our Business Domains</a>
-                     <ul class="dropdown-menu dropdown-menu-left" style="width:150%">
+                     <ul class="dropdown-menu dropdown-menu-left" id=droplist>
                      <li><a href=builders/index.html>Abstruse Infrastructures</a></li>
                       <li><a href=ites/index.html>Abstruse Technologies</a></li>
                       <li><a href=transport/index.html>Abstruse: Ambika Transporters</a></li>
