@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang=en>
-<title>Abstruse Technologies</title>
+<html lang="en">
+<title>Capabilities</title>
+
 <meta charset=UTF-8>
-<link href=../img/logos/logo-shortcut.png rel="shortcut icon" >
+<link href=../img/logos/logo-shortcut.png rel="shortcut icon">
 <meta content="width=device-width,initial-scale=1,maximum-scale=1" name=viewport>
 <link href=css/bootstrap.min.css rel=stylesheet>
 <link href=css/font-awesome.css rel=stylesheet>
@@ -29,8 +30,6 @@
     .dropdown-menu{
         min-width: 281px;
     }
-    
-    
 
   #navigator-button{
   width: 35%;
@@ -43,10 +42,6 @@ margin-top: 4%;
 margin-right: 2.5%;
   }
 
-    #serviceSection{
-        text-align: center; 
-        padding:0 0 5% 0;
-    }
 
   @media (max-width:990px){
       #navigator-button{
@@ -58,28 +53,9 @@ margin-right: 2.5%;
         min-width: auto;
     }
       
-      #mainHeading{
-        letter-spacing: 7px;
+      #ourApproachImage{
+          margin-top: 0px;
       }
-        
-      #removePadding{
-        padding: 0;
-      }
-      
-      #equalPadding{
-          padding-bottom: 20px;
-      }
-      
-      #equalPaddingSpecial{
-          padding-top:20px;
-          padding-bottom: 20px;
-      }
-      
-      #serviceSection{
-        text-align: center; 
-          padding:6% 0 0% 0;
-    }
-      
       .affix {
     position: inherit;
     }
@@ -89,15 +65,19 @@ margin-right: 2.5%;
        #navigator-button-width{
         width: 53%;
       }
+       
+       
     }
     
-    #equalPadding:hover, #equalPaddingSpecial:hover{
-        transition-delay: 0.1s;
-        box-shadow:  5px 5px 5px 5px #1d1d1d;
-        transition-duration: 0.3s; 
+    #ourApproachText{
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
     }
     
-    
+    #ourApproachImage{
+        margin-top: 10%;
+    }
 
 </style>
 
@@ -119,7 +99,7 @@ margin-right: 2.5%;
                                         <ul class="dropdown-menu dropdown-menu-left">
                                             <li><a href=domain_registration.html>Domain Registration</a>
                                                 <li><a href=ssl_certificate.html>SSL Certificate</a>
-                                                <li><a href=website_hosting.html>Website Hosting</a>
+                                                <li><a href=website_design.html>Website Hosting</a>
                                                 <li><a href=website_development.html>Website Development</a>
                                                 <li><a href=website_design.html>Website Design</a>
                                                 <li><a href=website_traffic.html>Website Traffic</a>
@@ -141,130 +121,150 @@ margin-right: 2.5%;
         </div>
     </nav>
 </header>
+    
+<div class=page-title>
+    <div id=particles-js-pagetitle></div>
+    <div class=container>
+        <h1>Capabilities</h1>
+        <h6  style="font-size: 16px;">We can...</h6></div>
+</div>
 
-<div class=video-area id=video-area>
-    <div class=player id=video-play data-property="{videoURL:'https://www.youtube.com/watch?v=4SMDmjshu3w', containment:'#video-area', showControls:false, autoPlay:true, zoom:0, loop:true, mute:true, startAt:50, opacity:1, quality:'high',}"></div>
-    <div class=video-table>
-        <div class=video-table-cell>
-            <div class="container center-holder">
-                <div class=video-effect>
-                    <div class=video-effect-box>
-                        <div class=video-effect-content>
-                            <h3 id=mainHeading>Abstruse Technologies</h3>
-                            <h2>Modern Design &amp; Architecture</h2>
-                        </div>
-                    </div>
+<div class=section-block>
+    <div class=container>
+        <div class=row>
+            <div class="col-xs-12 col-md-5 col-sm-5">
+                <div class=section-heading>
+                    <h2 class="animated fadeInLeft wow">What we do &amp; how we do it?</h2>
                 </div>
+                <div class=text-content>
+                    <p>We define a holistic vision for all touchpoints: the physical spaces, brand identity, digital solutions, and operational strategies. Driven by nearly a decade of experience, ABSTRUSE INFRASTRUCTURES’s design-focused approach translates our clients’ ideas into experiences that work in today’s world, and flexible enough for tomorrow’s. Our process delves deep to understand each client’s business, assess objectives and develop strategies that align the brand for success. 
+                    </p></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
+                <div class=outline-bordered-right><img alt=img src=img/capabilities/what-we-do.jpg></div>
             </div>
         </div>
     </div>
 </div>
     
-<div class=section-block id=removePadding>
+    
+<div class=section-block>
     <div class=container>
-        <h3 id=serviceSection>Services Offered for...</h3>
         <div class=row>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5" id=equalPaddingSpecial>
-                <div class=outline-bordered-right><a href=hotel.html><img alt=img src=img/index/hotel-link.JPG></a>
+            <div class="col-xs-12 col-md-5 col-sm-5">
+                <div class=section-heading>
+                    <h2 class="animated fadeInLeft wow">Our Approach</h2>
                 </div>
+                <div class=text-content>
+                    <p><span id=ourApproachText>01 - Immerse</span><br>
+                        We ask the right questions to get insight into the client’s company and industry. 
+                        <br><br>
+                        <span id=ourApproachText>02 - Ideate</span><br>
+                        We brainstorm vigorously, because it’s all about the big idea.
+                        <br><br>
+                        <span id=ourApproachText>03 - Identify</span><br>
+                        We ask our clients to identify the strongest concepts. 
+                        <br><br>
+                        <span id=ourApproachText>04 - Develop</span><br>
+                        We turn these ideas into strategies and solutions for change  
+                        <br><br>
+                        <span id=ourApproachText>05 - Apply</span><br>
+                        We create a toolkit of capabilities required to get the job done.
+                    </p></div>
             </div>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5" id=equalPadding>
-                <div class=outline-bordered-right><a href=workspace.html><img alt=img src=img/index/workspace-link.JPG></a></div>
-            </div>
-        </div>
-    </div>
-</div>
-    
-<div class=section-block id=removePadding>
-    <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5" id=equalPadding>
-                <div class=outline-bordered-right><a href=residential.html><img alt=img src=img/index/residential-link.jpg></a></div>
-            </div>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5" id=equalPadding>
-                <div class=outline-bordered-right><a href=entertainment.html><img alt=img src=img/index/entertainment-link.JPG></a></div>
-            </div>
-        </div>
-    </div>
-</div>
-    
-<div class=section-block id=removePadding>
-    <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5" id=equalPadding>
-                <div class=outline-bordered-right><a href=dining-space.html><img alt=img src=img/index/dining-link.JPG></a></div>
-            </div>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5" id=equalPadding>
-                <div class=outline-bordered-right><a href=healthcare.html><img alt=img src=img/index/healthcare-link.JPG></a></div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1" id=ourApproachImage>
+                <div class=outline-bordered-right><img alt=img src=img/capabilities/agcapproach.jpg></div>
             </div>
         </div>
     </div>
 </div>
-    
-<div class=section-block id=removePadding>
-    <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5" id=equalPadding>
-                <div class=outline-bordered-right><a href=civil-construction.html><img alt=img src=img/index/construction-link.JPG></a></div>
-            </div>
-            <div class="col-xs-12 col-md-offset-1 col-sm-5 col-md-5" id=equalPadding>
-                <div class=outline-bordered-right><a href=landscaping.html><img alt=img src=img/index/landscaping-link.JPG></a></div>
-            </div>
-        </div>
-    </div>
-</div>
-    
 
+
+<div class=section-block>
+    <div class=container>
+        <div class=row>
+            <div class="col-xs-12 col-md-5 col-sm-5">
+                <div class=section-heading>
+                    <h2 class="animated fadeInLeft wow">Strategy</h2>
+                </div>
+                <div class=text-content>
+                    <p>Our design-centered approach helps position industries to fit the demands of an ever-evolving world. We work with developers, architects and industry disruptors to envision optimistic, profitable futures for their businesses. 
+                    </p></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
+                <div class=outline-bordered-right><img alt=img src=img/capabilities/strategy.jpg></div>
+            </div>
+        </div>
+    </div>
+</div>
     
+    <div class=section-block>
+    <div class=container>
+        <div class=row>
+            <div class="col-xs-12 col-md-5 col-sm-5">
+                <div class=section-heading>
+                    <h2 class="animated fadeInLeft wow">Experience Design</h2>
+                </div>
+                <div class=text-content>
+                    <p>We believe "the experience is the brand." The 360º experiences we design embrace both the  physical and digital worlds to ensure that customers come away with a good and positive vibe. 
+                    </p></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
+                <div class=outline-bordered-right><img alt=img src=img/capabilities/experience-design.jpg></div>
+            </div>
+        </div>
+    </div>
+</div>
     
+    <div class=section-block>
+    <div class=container>
+        <div class=row>
+            <div class="col-xs-12 col-md-5 col-sm-5">
+                <div class=section-heading>
+                    <h2 class="animated fadeInLeft wow">Interior Design</h2>
+                </div>
+                <div class=text-content>
+                    <p>Our long-time success in hospitality design has given us expertise in crafting spaces where people feel welcomed and well treated. Our visionary approach allows us to disrupt a wide range of industries including restaurants, hotels, and healthcare.
+                    </p></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
+                <div class=outline-bordered-right><img alt=img src=img/capabilities/interior-design.jpg></div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <div class=section-block>
+    <div class=container>
+        <div class=row>
+            <div class="col-xs-12 col-md-5 col-sm-5">
+                <div class=section-heading>
+                    <h2 class="animated fadeInLeft wow">Lighting Design</h2>
+                </div>
+                <div class=text-content>
+                    <p>From concept to execution, our lighting specialists bring spaces to life through functional and beautiful illumination.
+                    </p></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
+                <div class=outline-bordered-right><img alt=img src=img/capabilities/lighting-design.jpg></div>
+            </div>
+        </div>
+    </div>
+</div>
+
     
 <div class=section-block-parallax style=background-image:url(../img/bg/bg4.jpg)>
     <div class=container>
-        <div class=row>
-            <div class="col-xs-12 col-sm-4 col-md-4" >
-                <div class="section-heading mt-70 outline-bordered-text-right white-color" style="margin-top: 0px">
-                    <h3><span style="color: #668a9b !important; font-size: 27px;">We are a One Stop Solution for Creative</span><br>Architecture Design<br>Construction &amp;<br>Interior Design<br>Services</h3></div>
-            </div>
-            <div class="col-xs-12 col-md-offset-1 col-md-7 col-sm-7">
-                <div class="text-content white-color">
-                    <p>Text to be written here</div>
-                <div class=row>
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class=countup-box>
-                            <h4 class=countup>150</h4><strong>Happy Customers</strong></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class=countup-box>
-                            <h4 class=countup>270</h4><strong>Finished Projects</strong></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4">
-                        <div class=countup-box>
-                            <h4 class=countup>490</h4><strong>Days of Work</strong></div>
-                    </div>
-                </div>
-            </div>
+        <div class="owl-carousel owl-theme" id=testmonials>
+             <div class="mt-40 testmonial-block">
+                <h4>Aman Aggarwal</h4>
+                <h6>CEO</h6>
+                 <p>“It’s not only the interior design or the branding that creates the experience, but how everything comes together to create something memorable.”</p></div>
         </div>
     </div>
 </div>
-    
-<div class="container section-block">
-    <div>
-        <div class="col-xs-12 col-md-3 col-sm-3">
-            <div class=section-heading>
-                <h2 class="animated fadeInLeft wow">Our Clients</h2>
-                <h3>Great Clients</h3></div>
-        </div>
-        <div class="col-xs-12 col-md-9 col-sm-9">
-            <div class="owl-carousel owl-theme" id=our-clients>
-                <div class=client-item><img alt=client src=../img/logos/logo.PNG></div>
-                <div class=client-item><img alt=client src=../img/logos/logo.PNG></div>
-                <div class=client-item><img alt=client src=../img/logos/logo.PNG></div>
-                <div class=client-item><img alt=client src=../img/logos/logo.PNG></div>
-                <div class=client-item><img alt=client src=../img/logos/logo.PNG></div>
-            </div>
-        </div>
-    </div>
-</div>
+
+
 <footer>
     <div id=particles-js-footer style=height:150px></div>
     <div class=container>
